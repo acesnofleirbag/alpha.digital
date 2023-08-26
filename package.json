@@ -1,0 +1,46 @@
+{
+  "name": "alpha-digital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "@alpha.digital landpage",
+  "author": "Gabriel \"thebe111\" Fonseca",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop -p 8081",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "fmt": "prettier --write src/**/*.{tsx,ts}"
+  },
+  "dependencies": {
+    "@alpha-digital/alpha-ui": "file:alpha-digital-alpha-ui-0.1.0.tgz",
+    "autoprefixer": "^10.4.14",
+    "babel-plugin-styled-components": "^2.1.3",
+    "gatsby": "^5.10.0",
+    "gatsby-plugin-image": "^3.10.0",
+    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-sharp": "^5.10.0",
+    "gatsby-plugin-styled-components": "^6.10.0",
+    "gatsby-source-filesystem": "^5.10.0",
+    "gatsby-transformer-sharp": "^5.10.0",
+    "postcss": "^8.4.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^5.0.0",
+    "prettier": "^3.0.2",
+    "typescript": "^5.0.4"
+  }
+}

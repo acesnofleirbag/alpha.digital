@@ -1,0 +1,6 @@
+alpha-digital-alpha-ui*
+src/gatsby-types.d.ts
+
+.cache/
+node_modules/
+public/
