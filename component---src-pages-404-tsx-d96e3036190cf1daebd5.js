@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalpha_digital=self.webpackChunkalpha_digital||[]).push([[218],{2513:function(t,e,n){n.r(e),n.d(e,{Head:function(){return r},default:function(){return i}});var a=n(7294),l=n(1883);function i(){return a.createElement("main",{style:{fontFamily:"var(--font-amaranth)",display:"flex",justifyContent:"center",alignItems:"center",height:"100vh"}},a.createElement(l.rU,{to:"/"},"Go home"),".")}const r=()=>a.createElement("title",null,"Alpha.Digital | 404")}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-d96e3036190cf1daebd5.js.map
